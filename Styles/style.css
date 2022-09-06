@@ -404,4 +404,7 @@ nav #navbarNavAltMarkup {
 ul.listRemoverPoint {
     list-style-type: none;
 }
+.programacao td:nth-child(1){
+    width: 20%;
+}
 
