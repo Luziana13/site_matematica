@@ -21,8 +21,8 @@ a:link {
     text-decoration: none;
 }
 .navbar-default {
-    background-color: #A8DADC;
-    border-color:  #A8DADC;
+    background-color: #1d3557;
+    border-color:  #1d3557;
    
 }
 nav #navbarNavAltMarkup {
@@ -59,21 +59,22 @@ nav #navbarNavAltMarkup {
 
 .navbar {
    display: none;
-   background-color: #A8DADC !important;
-   border-color:  #A8DADC !important;
+   background-color: #1d3557 !important;
+   border-color:  #1d3557 !important;
 }
 
 .div-imagem {
-    background-image: url("../imagens/backgound.png");
-    background-color: #1d3557;
-    border-color:  hsl(198, 85%, 15%);
-    height: 250px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-image: url(../imagens/divImagem2-removebg-preview.png);
+
 }
+
 .div-imagem #textoPrincipalCabecalho{
+    background-color: #fff;
     width: 100%;
     text-align: center;
 }
@@ -84,8 +85,9 @@ nav #navbarNavAltMarkup {
   
 }
 #textoPrincipalCabecalho{
-    color: #f1faee;
+    color: #1d3557;
     text-align:justify;
+   
     font-family: sans-serif;
     margin-left: auto;
     margin-right: auto;
@@ -111,9 +113,10 @@ nav #navbarNavAltMarkup {
 
 
 #textoPrincipalCabecalho h6{
-    font-size: 1rem;
+    font-size: 1.5rem;
     line-break: loose;
     word-break: break-all;
+    font-weight: bold;
 }
 .carousel{
     display: flex;
